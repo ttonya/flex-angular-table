@@ -1,0 +1,48 @@
+.users-table {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+}
+
+.firstName, .lastName, .opt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header, .users-table__cell, .options {
+    height: 30px;
+    border-bottom: 2px solid #dee1e5;
+}
+
+.header {
+    background-color: #ededed;
+    border-top: 2px solid #dee1e5;
+}
+.users-table__cell, .options {
+    padding: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+}
+.edit {
+    background-color: #ffdaaa;
+    border: 1px solid #fcc988;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+    height: 28px; 
+    width: 30px; 
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #f98981;
+    border: 1px solid #ff7066;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;  
+    height: 28px; 
+    width: 30px;
+    cursor: pointer;
+}

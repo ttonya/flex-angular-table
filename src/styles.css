@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    border: transparent;
+    cursor: pointer;
+}
+.add-user {
+    margin-left: 12%;
+}
+.add-user, .edit-user {
+    background-color: #68a2ff;
+
+}
+
+.delete-user {
+    background-color: #f75d72;
+}
+.go-back {
+    color: #68a2ff;
+    text-decoration: underline;
+    border: transparent;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+.not-visible {
+    display: none;
+}

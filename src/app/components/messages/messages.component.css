@@ -1,0 +1,19 @@
+.messages {
+    position: fixed;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(26, 82, 173, 0.6);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-message {
+    color: white;
+    text-align: center;
+    padding: 15px;   
+}

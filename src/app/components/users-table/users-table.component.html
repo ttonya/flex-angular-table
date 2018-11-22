@@ -1,0 +1,27 @@
+<div class="users-table">
+  <div class="firstName">
+    <div class="header"> Имя</div> 
+    <div *ngFor="let user of Users">
+      <div class="users-table__cell">{{user.firstName}}</div>
+    </div>
+  </div>
+
+  <div class="lastName">
+    <div class="header"> Фамилия</div> 
+    <div *ngFor="let user of Users">
+        <div class="users-table__cell">{{user.lastName}}</div>
+    </div>
+  </div>
+
+  <div class="opt">  
+    <div class="header"></div>
+    <div *ngFor="let user of Users">
+      <div class="options">   
+          <button class="edit" (click)="openEditUser(user)"><i class="material-icons">
+              edit
+              </i></button>
+          <button class="delete" (click)="openDeleteUser(user)">X</button>
+        </div> 
+    </div>
+ </div>
+</div>

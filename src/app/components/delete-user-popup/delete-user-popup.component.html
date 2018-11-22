@@ -1,0 +1,5 @@
+<h2 mat-dialog-title>Вы уверены?</h2>
+  <mat-dialog-actions> 
+      <button class="go-back" mat-button [mat-dialog-close]="true">Назад к списку</button>
+      <button  class="delete-user btn" (click)="deleteUser(data.id)" [mat-dialog-close]="true">Удалить</button>
+ </mat-dialog-actions>

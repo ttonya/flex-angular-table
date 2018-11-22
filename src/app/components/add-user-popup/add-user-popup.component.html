@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Создание сотрудника</h2>
+
+  <button class="go-back" mat-button [mat-dialog-close]="true">Назад к списку</button>
+
+   <mat-form-field>
+      <input matInput #firstName placeholder="Введите имя сотрудника">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput #lastName placeholder="Введите фамилию сотрудника">
+      </mat-form-field>
+
+  <mat-dialog-actions> 
+      <button  class="add-user btn" (click)="createUser(undefined, firstName.value, lastName.value)" [mat-dialog-close]="true">Создать</button>
+ </mat-dialog-actions>
